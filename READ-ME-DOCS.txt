@@ -72,19 +72,15 @@
 	- Post Page
 	- Login Page
 	- Category Page
-	- Contact Us Page
-	- Registration Page
 
 #Pages in back end section
 	- Dashboard Page
-	- Ads Page
 	- Login Page
 	- Settings Page
 	- Users Page CRUD (Displaying users + Creating + Updating + Deleting)
 	- Users Groups CRUD "For Permissions"
 	- Categories Page CRUD
 	- Posts Page CRUD
-	- Contact Us Page (To Vie + reply + Delete)
 
 #Layout
 
