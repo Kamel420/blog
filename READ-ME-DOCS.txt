@@ -11,6 +11,8 @@
 	- Create new database using phpMyAdmin or a similar software , preferlly you call it "blog"
 	- Edit config file with database info of your environment
 	- Import blog.sql file to database , you will find it in the root folder.
+	- to go to the root  -> it's route is : ('/') , for example i have my files in folder called blog in www folder
+          in wamp so i hit localhost/blog/
 	- i didnt create signup page because it's blog for 2 author to write on only , their credentials :
 		-  email : m.kamel@gmail.com   pass : 123456789
 		-  email : mohamed.elogail@gmail.com  pass : 123456789
