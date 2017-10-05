@@ -1,0 +1,160 @@
+#About The Task
+	
+	-This Task is introduced to Vision 22 adv agency, it'ssimple blog page for displaying articles of two authors.
+	-it consists of two main section : 
+
+		*Front-end Page: to display the articles, 
+		*Admin Panel: to add, update, and remove articles.
+
+# Configuration 
+	- Unzip the file
+	- Create new database using phpMyAdmin or a similar software , preferlly you call it "blog"
+	- Edit config file with database info of your environment
+	- Import blog.sql file to database , you will find it in the root folder.
+	- i didnt create signup page because it's blog for 2 author to write on only , their credentials :
+		-  email : m.kamel@gmail.com   pass : 123456789
+		-  email : mohamed.elogail@gmail.com  pass : 123456789
+		-  the third user is normal user doesn't have access to see the button that redirect to the admin panel
+	- that's it.
+
+#Tools
+	
+	-PHP 7
+	-OOP many design patterns 
+	-Bootstrap
+	-html5
+	-css3
+	-jquery-ajax
+	-MySql - PDO
+
+#New Skills
+	
+	-This task was and still a big challenge for me despite it's not as what you and i  were waiting for because it's the most easy, complex consuming time task i have ever seen and get me to know really different things like dependency injection,singelton, factory patterns,routing and a way too much more.
+
+# My Environment  
+	- Windows OS
+	- PHP 7
+	- apache
+	- mysql -> DB name : Blog and it's located in the root folder with name **blog.sql**
+
+# ScreenShots  
+	- i have added a screen shots folder in the root folder so if the result didn't shown the same on your machine please message me to fix that out . 
+
+##Code Docs
+
+#Files And Folders
+	- /App
+	--- /Controllers
+	--- /Models
+	--- /Views
+	--- index.php
+	- /public
+	--- /theme
+	----- /css
+	----- /js
+	----- /images
+	--- /admin
+	----- /css
+	----- /js
+	----- /images
+	--- /uploads
+	----- /images
+	- /vendor
+	--- /System
+	- .htaccess
+	- config.php
+	- index.php
+
+#Pages in front end section
+	- Home Page
+	- Post Page
+	- Login Page
+	- Category Page
+	- Contact Us Page
+	- Registration Page
+
+#Pages in back end section
+	- Dashboard Page
+	- Ads Page
+	- Login Page
+	- Settings Page
+	- Users Page CRUD (Displaying users + Creating + Updating + Deleting)
+	- Users Groups CRUD "For Permissions"
+	- Categories Page CRUD
+	- Posts Page CRUD
+	- Contact Us Page (To Vie + reply + Delete)
+
+#Layout
+
+	- Layout System is a layout for all pages which will contain :
+	- Header
+	- Page Content
+	- Footer
+	- So the content of any page from the above ones will be set
+	- in that section.
+
+#some of the core classes and function
+
+* Loader Class
+
+	- This class is responsible for loading Controllers "Classes" AND Models "Classes" located in App directory
+
+* Controller Class : abstract
+
+	- This class will be set as an abstract class as all controllers will extend it
+* View Factory Class 
+	
+	- is responsible to generate view objects which are basically will handle html files for view
+
+* Response Class
+
+	- This Class is responsible for handling all responses
+	- as the output will be passed to it to display it in the browser	
+
+* Database Class
+
+	- This class is fully responsible for handling all queries on database
+
+* Session Class functions -> Basic Session Handling
+
+	- Session::start Start Session
+	- Session::set Add new value to session
+	- Session::get Get Value from session
+	- Session::has Determine if session has the given key
+	- Session::remove Remove the given key from session
+	- Session::all Get all session data
+	- Session::pull Get the value of the given key and remove it
+	- Session::destroy Destroy Session
+
+* Request Class functions ->  _SERVER
+
+	- blog/post/my-post-title/13
+	- Request::prepareUrl Prepare Url and set it
+	- Request::get Get value from _GET
+	- Request::post Get value from _POST
+	- Request::server Get value from _SERVER
+	- Request::method Get request method
+	- Request::baseUrl Get domain path // http://sitename.com/blog
+	- Request::url Get request url // relative only
+
+* route class functions
+
+	- void Route::add($url, $action, $requestMethod = GET) Add new Route
+	- string Route::generatePattern($url) Generate regex pattern for the given url
+	- string Route::getAction($action) Get action which contains controller followed by method
+	- void Route::notFound($url) Set not found url that will be redirect if no matching route
+	- array Route::getProperRoute Get the controller, method and its passed arguments
+	- bool Route::isMatching($pattern) Determine if the given pattern matching the current request url
+	- array Route::getArgumentsFor($pattern) Get the arguments from the url based on the given regex pattern
+
+
+##BUGS in the code :
+
+	-	in the admin panel when one of my 2 author tries to add new posts it freeze on loading state .
+		but the rest woring fine like add/edit new users ,
+	-	ads,contact us, online users , website is down at settings doesn't actually works 
+
+
+##conclusionsion :
+
+	- To be honest i didn't write this code from scratch , i have been following many series to get this task done in a proper object oriented way to have the high score there was alot of refrencess and front end template ( like control panel template ) which i was tracking and that's what i was able to reach in this task period , it was so much fun and challenger , i have invest alot of time on it discovering new techinques and wounderful programing tracks which i should strengths and develop myself more on it ,there are some features that i was intent to implement but time and bugs stopped me just for now i didn't removie like (ads,online users) just to show you what i have reached lately, i want to thank you to give me such oppourtiunity not just involved with your team but also satisfying my needs , i know it is not like what you wanted but i will try to enhance my knowledge in this issues and things will only get better. i hope you like what i have reached so far . all my best luck for you , the team , and the eng.ahmed . keep the good work going , till we meet again .  
