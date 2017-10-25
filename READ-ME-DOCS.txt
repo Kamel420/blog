@@ -154,4 +154,10 @@
 
 ##conclusionsion :
 
-	- To be honest i didn't write this code from scratch out of my knowledge  , i have been following many series to get this task done in a proper object oriented way to have the high score there was alot of refrencess and front end template ( like control panel template ) which i was tracking and that's what i was able to reach in this task period , it was so much fun and challenger , i have invest alot of time on it discovering new techinques and wounderful programing tracks which i should strengths and develop myself more on it ,there are some features that i was intent to implement but time and bugs stopped me just for now i didn't removie like (ads,online users) just to show you what i have reached lately,  and things will only get better. i hope you like what i have reached so far 
+	- To be honest i didn't write this code from scratch out of my knowledge  , i have been following many series to get
+	this task done in a proper object oriented way to have the high score there was alot of refrencess and front end
+	template ( like control panel template ) which i was tracking and that's what i was able to reach in this task period ,
+	it was so much fun and challenger , i have invest alot of time on it discovering new techinques and wounderful
+	programing tracks which i should strengths and develop myself more on it ,there are some features that i was intent to
+	implement but time and bugs stopped me just for now i didn't removie like (ads,online users) just to show you what i
+	have reached lately,  and things will only get better. i hope you like what i have reached so far 
