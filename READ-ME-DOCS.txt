@@ -1,19 +1,18 @@
 #About The Task
 	
-	-This Task is introduced to Vision 22 adv agency, it'ssimple blog page for displaying articles of two authors.
+	-this task is a simple blog for displaying articles of two authors only.
 	-it consists of two main section : 
 
 		*Front-end Page: to display the articles, 
 		*Admin Panel: to add, update, and remove articles.
 
-# Configuration 
+#Configuration and installation
+
 	- Unzip the file
 	- Create new database using phpMyAdmin or a similar software , preferlly you call it "blog"
 	- Edit config file with database info of your environment
 	- Import blog.sql file to database , you will find it in the root folder.
-	- to go to the root  -> it's route is : ('/') , for example i have my files in folder called blog in www folder
-          in wamp so i hit localhost/blog/
-	- i didnt create signup page because it's blog for 2 author to write on only , their credentials :
+	- i didnt create signup page because it's blog for 2 author to write on only , their credentials to login is:
 		-  email : m.kamel@gmail.com   pass : 123456789
 		-  email : mohamed.elogail@gmail.com  pass : 123456789
 		-  the third user is normal user doesn't have access to see the button that redirect to the admin panel
@@ -31,7 +30,7 @@
 
 #New Skills
 	
-	-This task was and still a big challenge for me despite it's not as what you and i  were waiting for because it's the most easy, complex consuming time task i have ever seen and get me to know really different things like dependency injection,singelton, factory patterns,routing and a way too much more.
+	-This task was and still a big challenge for me despite it's completed yet it's the most easy, complex consuming time task i have ever had and get me to know really different things like dependency injection,singelton, factory patterns,routing and a way too much more.
 
 # My Environment  
 	- Windows OS
@@ -150,9 +149,9 @@
 
 	-	in the admin panel when one of my 2 author tries to add new posts it freeze on loading state .
 		but the rest woring fine like add/edit new users ,
-	-	ads,contact us, online users , website is down at settings doesn't actually works 
+	-	ads,contact us, online users , website is down at settings doesn't actually works till now.
 
 
 ##conclusionsion :
 
-	- To be honest i didn't write this code from scratch , i have been following many series to get this task done in a proper object oriented way to have the high score there was alot of refrencess and front end template ( like control panel template ) which i was tracking and that's what i was able to reach in this task period , it was so much fun and challenger , i have invest alot of time on it discovering new techinques and wounderful programing tracks which i should strengths and develop myself more on it ,there are some features that i was intent to implement but time and bugs stopped me just for now i didn't removie like (ads,online users) just to show you what i have reached lately, i want to thank you to give me such oppourtiunity not just involved with your team but also satisfying my needs , i know it is not like what you wanted but i will try to enhance my knowledge in this issues and things will only get better. i hope you like what i have reached so far . all my best luck for you , the team , and the eng.ahmed . keep the good work going , till we meet again .  
+	- To be honest i didn't write this code from scratch out of my knowledge  , i have been following many series to get this task done in a proper object oriented way to have the high score there was alot of refrencess and front end template ( like control panel template ) which i was tracking and that's what i was able to reach in this task period , it was so much fun and challenger , i have invest alot of time on it discovering new techinques and wounderful programing tracks which i should strengths and develop myself more on it ,there are some features that i was intent to implement but time and bugs stopped me just for now i didn't removie like (ads,online users) just to show you what i have reached lately,  and things will only get better. i hope you like what i have reached so far 
