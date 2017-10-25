@@ -30,7 +30,9 @@
 
 #New Skills
 	
-	-This task was and still a big challenge for me despite it's completed yet it's the most easy, complex consuming time task i have ever had and get me to know really different things like dependency injection,singelton, factory patterns,routing and a way too much more.
+	-This task was and still a big challenge for me despite it's completed yet it's the most easy, complex consuming time
+	task i have ever had and get me to know really different things like dependency injection,singelton, factory
+	patterns,routing and a way too much more.
 
 # My Environment  
 	- Windows OS
